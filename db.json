@@ -1,0 +1,38 @@
+{
+  "transactions": [
+    {
+      "id": "2ef47bb4-59dd-4cbf-9211-a4d3a27b7432",
+      "title": "signature_transaction",
+      "status": "approved",
+      "signingGroupId": "f49af9a0-cf18-4327-9ff3-b9b855e3b60d",
+      "operatorId": "6bd3d87b-3725-4be8-a900-e7d6ad2c6286",
+      "createdAt": "2023-08-24T13:00:52.576Z",
+      "updatedAt": null,
+      "completedAt": "2023-08-24T14:02:33.136Z",
+      "name": "test tx",
+      "description": "this is the first test tx",
+      "reference": "test tx 1",
+      "details": {
+        "transaction_id": "2ef47bb4-59dd-4cbf-9211-a4d3a27b7432",
+        "signing_group_id": "f49af9a0-cf18-4327-9ff3-b9b855e3b60d",
+        "amount": 5,
+        "unsigned_transaction": "02f86c05018459682f008459682f0082fde89407865c6e87b9f70255377e024ace6630c1eaa37f80b844a9059cbb0000000000000000000000004438110badf278a81c68260092ab03f67088046000000000000000000000000000000000000000000000000000000000004c4b40c0",
+        "transaction_hash": "05ecd543a43ff0d13c6fa0bb70c2b1a46db8ebe1cde599127bbde2a774bc29cd",
+        "blockchain_transaction_id": "0x07edb197d8338027dc5bab5e7a72d53a433f1097ca34c224b94168658bf5d880",
+        "origin_blockchain_address": "0x35E1b67A95c6c26a86Babf064faF5355d7B06Cd1",
+        "destination_blockchain_address": "0x4438110BadF278A81c68260092ab03F670880460"
+      }
+    }
+  ],
+  "signingGroups": [
+    {
+      "id": "f49af9a0-cf18-4327-9ff3-b9b855e3b60d",
+      "name": "signing group 1",
+      "policyId": "8d438b1e-3dc6-446e-b893-9e77c08edad2",
+      "publicKey": "MIGeMA0GCSqGSIb3DQEBAQUAA4GMADCBiAKBgHYY8R3pKO3gxgzKpkSrMNnNt+KFPG3N+oAR7HM5GcXrgaqJijnxQ2wP/pM5DWFd20u7g2YTezdKE+RQudQ0J0PK8th+WWzGOyVK7T2FVKKuc2mIeESFfPAIRetPAXJ2OZy5PQ1hYq0c542IIvvAGFISmbFob82QtrgFSCrwfWbHAgMBAAE="
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
